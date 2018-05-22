@@ -35,9 +35,9 @@ note.expiry = Math.floor(Date.now() / 1000) + 10;
 note.badge = 3;
 note.sound = "ping.aiff";
 note.payload = {
-  'description': 'login'
+  'description': 'msg'
 };
 note.topic = "Tigerbimeeting";
-note.alert = name + "上线了";
+note.alert = "收到一条新消息";
 apnsPush(note, devices[0].DeviceToken);
 ```
