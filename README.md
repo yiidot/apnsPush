@@ -5,7 +5,7 @@
 #### 来源：Bimeeting项目
 
 ### 核心代码
-```
+```JavaScript
 // 引入
 var apn = require('apn');
 
